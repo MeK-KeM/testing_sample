@@ -1,0 +1,25 @@
+# Init project
+npm init
+
+# Install Karma:
+$ npm install karma -g
+$ npm install karma --save-dev
+
+# Install plugins that your project needs:
+$ npm install karma-jasmine karma-coverage karma-chrome-launcher jasmine-core --save-dev
+
+# Init Karma:
+$ karma init
+
+# Add script run karma
+"scripts": {
+    "test": "karma start karma.conf.js"
+  }
+
+
+# coverage
+https://www.npmjs.com/package/karma-coverage
+
+
+
+
